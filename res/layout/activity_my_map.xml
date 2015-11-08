@@ -82,6 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.4"
                 android:onClick="geoLocate"
+                android:layout_gravity="center"
                 android:text="Search" />
         </LinearLayout>
     </LinearLayout>
