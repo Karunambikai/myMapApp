@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class OpenHelper extends SQLiteOpenHelper {
 
-	private static final String DATABASE_NAME = "sampledb4.db";
+	private static final String DATABASE_NAME = "checkINDB.db";
 	private static final int DATABASE_VERSION = 1;
 
 	public static final String TABLE_NAME_CHECK_IN = "CheckInItem";
