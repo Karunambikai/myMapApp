@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dip"
+        android:background="#ffffff"
+        android:padding="3dip" >
+
+        <Button
+            android:id="@+id/btnCheckIn"
+            style="@style/btnStyleSandrift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New entry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dip"
+        android:background="#ffffff"
+        android:padding="3dip" >
+
+        <Button
+            android:id="@+id/btnMenu"
+            style="@style/btnStyleSandrift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View My CheckIns" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dip"
+        android:background="#ffffff"
+        android:padding="3dip" >
+
+        <Button
+            android:id="@+id/btnHow"
+            style="@style/btnStyleSandrift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to use this" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dip"
+        android:background="#ffffff"
+        android:padding="3dip" >
+
+        <Button
+            android:id="@+id/btnAbt"
+            style="@style/btnStyleSandrift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us" />
+    </LinearLayout>
+
+</LinearLayout>

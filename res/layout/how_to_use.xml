@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="How To Use My Map!!!"
+        android:textColor="#000099"
+        android:textSize="30dp" />
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="How to use this App"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="This App is used to Track your Life Activities. \n\n With this app, you can record all the incidents by loaction and attach recordings and snapshots. \n\nOption to categorize checkin based on General, Business purpose, Tour, Health and Education.\n\nMenu with both List view and Map view for all checkin with type filter."
+                android:textColor="#191975"
+                android:textSize="15dp"
+                android:textStyle="bold|italic" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="App needs GPS settings to turn On"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/gps_on" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Enter details for Check In - Title, Type, Date"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/checkin_detail1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Enter details for Check In - Record, Attach Pics, Enter Description"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/checkin_detail2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Enter details for Check In - Record, Attach Pics, Enter Description"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/checkin_detail2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Map Menu to show all my Check Ins with type filter"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/my_check_in_menu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="My Check In Detail Screen"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/checkindetail_screen2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="My Check In Detail Screen"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/checkindetail_screen1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="List Menu to show all my Check Ins with type filter"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/my_check_in_menu_list" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Type Filter to filter in both Map and List Menu"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/my_check_in_menu_type" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Search Option to Search Particular Location"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/search" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Create Check In for Map Point Location"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/create_new_checkin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Home Screen"
+                android:textColor="#191975"
+                android:textSize="25dp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/home" />
+        </LinearLayout>
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Please Swipe for more Info!!!"
+        android:textColor="#191975"
+        android:textSize="25dp"
+        android:textStyle="bold" >
+    </TextView>
+
+</LinearLayout>
